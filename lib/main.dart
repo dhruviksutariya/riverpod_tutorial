@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
     return ProviderScope(
       child: MaterialApp(
         title: 'Flutter Demo',
-
-        home:  LoginScreen(),
+        home:  PostScreen(),
       ),
     );
   }
